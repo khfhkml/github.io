@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="deliteful_days.photo">
+    <meta name="description" content="親子撮影会">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>deliteful_days.photo</title>
+    <link href="css/style.css" media="all" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+</head>
+<body>
+    <header>
+        <h1>deliteful_days.photo</h1>
+    </header>
+    <div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Top</a></li>
+            <li><a href="item.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+<!--       段落として設定したいのでpタグ付与-->
+        <div class="fade">
+            <img src="image/portfolio.jpg" alt="ポートフォリオ">
+            <img src="image/plant.jpg" alt="自然光でイキイキ植物">
+        </div>
+<!--       画像変更する-->
+        <section>
+        <h2>MESSAGE</h2>
+
+          <p>あっという間に過ぎていく子供との時間。<br>～ママのおっぱいを一生懸命飲んでいる時～<br>～自分の足で歩みを始めた時～<br>～いつのまにか追いつけない位、速く走れるようになっている事に気づいた時～<br>忘れたくないその瞬間を自然に切り取ります。<br>今もこれからも喜びに溢れる毎日になりますように。</p>
+        </section>
+    </main>
+    </div>
+    <footer>
+        <p>&copy;Copyright deliteful_days.photo All rights reserved.</p>
+    </footer>
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+        
+    <script src="js/jquery.heightLine.js"></script>
+        
+    <script>
+        $(document).ready(function(){
+            $(".fade").slick({
+            autoplay:true,
+            fade:true,
+            dots:true,
+            });
+        });
+    </script>
+        
+</body>
+</html>

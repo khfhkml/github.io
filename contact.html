@@ -11,10 +11,10 @@
 </head>
 <!--CSS変更-->
 <body>
-    <div class="wrapper">
+    
     <header>
 <!--       画像変更する-->
-        <h1>deliteful_days.photo</h1>
+        <h1><img src="img/logo.png" alt="deliteful_days.photo"></h1>
         <nav>
             <ul>
             <li><a href="index.html">Top</a></li>
@@ -24,6 +24,7 @@
         </nav>
     </header>
     <main>
+        <div class="wrapper">
         <h2>Contact</h2>
         <form method="GET" action="result.html">
             <div>
@@ -31,13 +32,13 @@
                 <label for="kind">お問合せの種類</label><br>
 <!--                プルダウンメニュー-->
                 <select id="kind" name="kind">
-                    <option value="reservation">撮影会について</option>
-                    <!-- <option value="event">あああ</option>-->
+                    <option value="reservation">ご予約</option>
+                    <!-- <option value="event">イベントについて</option>-->
                     <option value="contact">その他のお問い合わせ</option>
                 </select>
             </div>
             <div>
-                撮影会参加ご希望の方▶撮影したいシチュエーションは決まっていますか<br>
+                撮影会参加ご希望の方▶撮影したいシチュエーションはありますか<br>
 <!--                ラジオボタン-->
                 <label><input type="radio" name="first" value="yes" checked>決まっている</label>
                 <label><input type="radio" name="first" value="no">相談したい</label>
@@ -49,9 +50,9 @@
                 <label><input type="checkbox" name="how" value="magazine">リピーター</label>
             </div>
             <div>
-                <label>ご連絡先メールアドレス<br>
+                <label>お問い合わせの件名<br>
 <!--                テキストフィールド-->
-                    <input type="text" name="subject" placeholder="ex)deliteful.days@email.jp"></label>
+                    <input type="text" name="subject" placeholder="お問い合わせ"></label>
             </div>
             <div>
                 <label>お問い合わせの具体的な内容<br>
@@ -62,10 +63,11 @@
                 <input type="submit" name="submit" value="送信">
             </div>
         </form>
+        </div>
     </main>
     <footer>
         <p>&copy;Copyright deliteful_days.photo All rights reserved.</p>
     </footer>
-    </div>
+    
 </body>
 </html>
